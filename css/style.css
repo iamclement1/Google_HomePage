@@ -199,8 +199,14 @@ footer a {
     display: flex;
     justify-content: space-around;
     margin-left: 170px;
-    font-size: 16px;
+    font-size: 14px;
   }
+
+  nav img{
+      height: 15px;
+  }
+
+
 
   main {
     width: 80%;
