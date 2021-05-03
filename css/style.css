@@ -63,6 +63,10 @@ input {
   margin-top: 30px;
 }
 
+.btn:hover {
+  cursor: pointer;
+}
+
 .btn button {
   padding: 1em;
   border: none;
@@ -132,6 +136,7 @@ footer a {
     border-radius: 20px;
     border: 1px solid gray;
   }
+
   .btn button {
     padding: 9px;
     border: none;
@@ -142,7 +147,7 @@ footer a {
   }
 
   footer {
-    margin-top: 24rem;
+    margin-top: 20rem;
     font-size: 5px;
   }
 }
