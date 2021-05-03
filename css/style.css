@@ -70,6 +70,7 @@ input {
 .btn button {
   padding: 1em;
   border: none;
+  border-radius: 5px;
 }
 
 .lang {
@@ -202,11 +203,9 @@ footer a {
     font-size: 14px;
   }
 
-  nav img{
-      height: 15px;
+  nav img {
+    height: 15px;
   }
-
-
 
   main {
     width: 80%;
