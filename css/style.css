@@ -116,6 +116,7 @@ footer a {
     display: flex;
     justify-content: space-around;
     margin-left: 170px;
+    font-size: 12px;
   }
 
   main {
