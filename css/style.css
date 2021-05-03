@@ -150,50 +150,45 @@ footer a {
   }
 } */
 
-@media only screen 
-  and (min-device-width: 414px) 
-  and (max-device-width: 736px) 
-  and (-webkit-min-device-pixel-ratio: 3) { 
+@media only screen and (min-device-width: 414px) and (max-device-width: 736px) and (-webkit-min-device-pixel-ratio: 3) {
+  nav {
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+    margin-left: 170px;
+    font-size: 16px;
+  }
 
-    nav {
-        width: 50%;
-        display: flex;
-        justify-content: space-around;
-        margin-left: 170px;
-        font-size: 16px;
-      }
-    
-      main {
-        width: 80%;
-        margin: auto;
-        padding-top: 25px;
-        text-align: center;
-      }
-    
-      main img {
-        width: 70%;
-      }
-    
-      main input {
-        width: 100%;
-        padding: 1em;
-        text-align: center;
-        border-radius: 20px;
-        border: 1px solid gray;
-      }
-    
-      .btn button {
-        padding: 9px;
-        border: none;
-      }
-    
-      .lang {
-        font-size: 10px;
-      }
-    
-      footer {
-        margin-top: 15rem;
-        font-size: 5px;
-      }
+  main {
+    width: 80%;
+    margin: auto;
+    padding-top: 25px;
+    text-align: center;
+  }
 
+  main img {
+    width: 70%;
+  }
+
+  main input {
+    width: 100%;
+    padding: 1em;
+    text-align: center;
+    border-radius: 20px;
+    border: 1px solid gray;
+  }
+
+  .btn button {
+    padding: 9px;
+    border: none;
+  }
+
+  .lang {
+    font-size: 10px;
+  }
+
+  footer {
+    margin-top: 19rem;
+    font-size: 5px;
+  }
 }
